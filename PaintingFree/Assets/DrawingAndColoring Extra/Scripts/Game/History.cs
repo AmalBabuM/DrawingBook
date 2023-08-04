@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 ///Developed by Indie Studio
 ///https://assetstore.unity.com/publishers/9268
@@ -183,6 +184,7 @@ namespace IndieStudio.DrawingAndColoring.Logic
 			if (undoBtn == null) {
 				undoBtn = GameObject.Find("UndoButton").GetComponent<Button>();
 			}
+			
 			
 			if (redoBtn == null) {
 				redoBtn = GameObject.Find("RedoButton").GetComponent<Button>();
